@@ -1,5 +1,24 @@
 {
+  "name": "Juken-Gokaku",
+  "version": "1.0.0",
+  "private": true,
   "dependencies": {
-    "firebase": "^10.13.1"
+    "firebase-admin": "^11.0.0",
+    "firebase-functions": "^4.0.0"
+  },
+  "devDependencies": {
+    "firebase-tools": "^11.0.0"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy",
+    "logs": "firebase functions:log",
+    "build": ""
+  },
+  "engines": {
+    "node": "14"
   }
 }
