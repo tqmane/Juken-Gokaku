@@ -2,4 +2,4 @@
 
 #### これは受験戦争敗退者用のサイトです
 
-https://juken-gokaku.web.app/
+https://juken-gokaku.web.app
